@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+}
+
+.breadcrumb-item a {
+    color: #99005C;
+    text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+    text-decoration: underline;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 15px;
+}
+
+h5.card-title {
+    color: #99005C;
+}
+
+.badge {
+    font-size: 0.75rem;
+    margin-right: 5px;
+}
+
+.btn-outline-secondary {
+    color: #99005C;
+    border-color: #99005C;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #99005C;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#caregiversCount {
+    color: #666;
+}
+
+#filter {
+    background-color: #99005C;
+    color: white;
+}
+
+.sitter-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.sitter-card {
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.sitter-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-check-label {
+    color: #333;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+}
+
+.card-title {
+    margin-bottom: 5px;
+}
+
+h6 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.mb-3 label {
+    font-weight: bold;
+    color: #666;
+}
+
+input[type="text"],
+.form-select {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button.btn-primary {
+    background-color: #99005C;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button.btn-primary:hover {
+    background-color: #7a0048;
+}
+
+.form-check-input {
+    margin-top: 5px;
+}

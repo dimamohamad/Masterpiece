@@ -1,0 +1,103 @@
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #99005C;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.text-primary {
+    color: #99005C !important;
+}
+
+a.btn.btn-dark.rounded-pill.py-sm-3.px-sm-5.animated.slideInRight {
+    color: #99005C;
+    background-color: rgb(255, 255, 255);
+    /* color: black; */
+}
+
+
+
+
+.team-text h3 {
+    font-size: 20px !important;
+}
+
+.team-text p {
+    font-size: 15px !important;
+    text-align: center;
+}
+
+img.img-fluid.rounded-circle.w-75 {
+    width: 400px;
+    height: 700px;
+}
+
+
+
+
+
+
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-weight: bold;
+    color: black
+}
+
+.btn-primary {
+    background-color: #c71b7c;
+    border: none;
+    /* width: 100%; */
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn-primary:hover {
+    background-color: #c71b7c;
+}
+
+.payment-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.payment-card.selected {
+    border-color: #c71b7c;
+    background-color: #f8f9fa;
+}
+
+.payment-logo {
+    max-height: 40px;
+    margin-bottom: 10px;
+}
+
+.payment-details {
+    display: none;
+    margin-top: 20px;
+}
+
+.form-control,
+.form-control:focus {
+    border-color: #74787c;
+    box-shadow: none;
+
+}
+
+.card-body {
+    box-shadow: 0 -11px 10px rgba(0, 0, 0, 0.3);
+}
